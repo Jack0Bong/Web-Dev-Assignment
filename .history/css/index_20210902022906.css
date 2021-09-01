@@ -141,19 +141,14 @@ to {opacity: 1}
 /* promotion section styling */
 .box-view{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: auto;
-    width: 80%;
-    margin: auto;
 }
 
 .box{
-    width: 250px;
-    height: 250px;
-    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
 }
 
 .box img{
-    width: 250px;
-    object-fit: cover;
+    width: 100px;
+    height: 100px;
 }
