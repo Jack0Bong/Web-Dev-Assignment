@@ -83,7 +83,6 @@ to {opacity: 1}
 /* Events section styling */
 .events-section{
     width: 100%;
-    margin: 10vh auto 10vh auto
 }
 
 .section-title{
@@ -91,7 +90,7 @@ to {opacity: 1}
     font-size: 1.8em;
     text-align: center;
     width: 50%;
-    margin: auto;
+    margin: 10vh auto 10vh auto;
 }
 
 .section-title p{
@@ -140,10 +139,6 @@ to {opacity: 1}
 
 
 /* promotion section styling */
-.promotion-section{
-    margin: 10vh auto 10vh auto
-}
-
 .box-view{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
