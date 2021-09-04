@@ -1,0 +1,16 @@
+.services-section{
+    width: 100%;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+}
+
+.service img{
+
+}
+
+.service p{
+
+}

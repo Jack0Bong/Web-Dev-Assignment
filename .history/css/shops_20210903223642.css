@@ -1,3 +1,7 @@
+body{
+    background-color: #700061;
+}
+
 /* Floor category styling */
 .floor-tab{
     margin: 3vh auto 3vh auto;
@@ -9,12 +13,6 @@
     border: none;
     background: none;
     cursor: pointer;
-    transition: ease-in 0.1s;
-}
-
-.tablink:hover{
-    color: grey;
-    transition: ease-in 0.1s;
 }
 
 .card-view{
@@ -30,10 +28,17 @@
     width: 80%;
     margin: auto;
     margin-bottom: 10%;
+    background-color: white;
+}
+
+.shop-card div{
+    width: 80&;
+    margin: auto;
 }
 
 .shop-card img{
-    width: 100%;
+    margin: auto;
+    width: 80%;
     object-fit: cover;
 }
 

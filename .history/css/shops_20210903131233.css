@@ -9,27 +9,19 @@
     border: none;
     background: none;
     cursor: pointer;
-    transition: ease-in 0.1s;
-}
-
-.tablink:hover{
-    color: grey;
-    transition: ease-in 0.1s;
 }
 
 .card-view{
-    display: none;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
     margin: auto;
-    margin-top: 2%;
-    margin-bottom: 10%;
 }
 
 .shop-card{
     width: 80%;
     margin: auto;
-    margin-bottom: 10%;
+    margin-top: 10vh;
 }
 
 .shop-card img{
@@ -37,10 +29,12 @@
     object-fit: cover;
 }
 
-.shop-card h2{
-    font-family: poppins;
+
+/* hiding tabs */
+.lower-ground{
+    display: initial;
 }
 
-.shop-card p{
-    font-family: roboto;
+.ground-floor{
+    display: none;
 }

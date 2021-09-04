@@ -1,0 +1,18 @@
+.services-section{
+    width: 100%;
+}
+
+.service{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+.service img{
+    width: 40%;
+    object-fit: cover;
+}
+
+.service p{
+    width: 60%;
+}
