@@ -138,6 +138,36 @@ to {opacity: 1}
     margin: 15px 10px 0px 10px;
 }
 
+/* discover section styling */
+.container-view{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: auto;
+}
+
+.container{
+    width: 90%;
+    margin: 10px auto 10px auto;
+    border: 1px solid gainsboro;
+}
+
+.container img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.container h2{
+    padding: 0 10px 0 10px;
+    font-family: roboto;
+}
+
+.container p{
+    font-family: roboto;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
 
 /* promotion section styling */
 .promotion-section{
