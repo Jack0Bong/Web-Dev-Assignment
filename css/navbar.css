@@ -90,7 +90,7 @@ nav:hover{
 footer{
     margin-top: auto;
     background-color: black;
-    height: 50vh;
+    height: fit-content;
 }
 
 .footer-upper{
@@ -161,6 +161,14 @@ footer{
 
 .footer-social a{
     text-decoration: none;
+}
+
+.copyright{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 0.9em;
 }
 
 .fa{
