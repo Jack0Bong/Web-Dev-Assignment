@@ -1,3 +1,5 @@
+// Author:Bong Hung Jiat
+
 let slideIndex = 1;
 displaySlide(slideIndex);
 

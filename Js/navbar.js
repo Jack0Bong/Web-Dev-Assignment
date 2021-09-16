@@ -1,3 +1,5 @@
+// Author:Bong Hung Jiat
+
 window.addEventListener("scroll", (event) => {
     let scroll = this.scrollY;
     let navbar = document.querySelector('.nav');
