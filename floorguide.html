@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Author : Brian Lai Kah Hoe-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topmall Megamall</title>
+
+    <!-- fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- style sheets link -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/floorguide.css">
+    
+</head>
+<body>
+
+    <!-- navigation bar | Author: Bong Hung Jiat-->
+    <nav class="nav">
+        <img src="Assets/navbar/topmall-white.png" alt="Topmall" class="Assets/brian/logo">
+        <ul class="navlist">
+            <!-- links added here -->
+            <li><a href="index.html" class="navlink">Home</a></li>
+            <li><a href="whatson.html" class="navlink">What's on</a></li>
+            <li><a href="floorguide.html" class="navlink">Floor Directory</a></li>    
+            <li><a href="Contactus.html" class="navlink">Contact Us</a></li>    
+            <li><a href="locateus.html" class="navlink">Locate Us</a></li>
+            <li><a href="aboutus.html" class="navlink">About us</a></li>
+        </ul>
+    </nav>
+
+    <!-- navbar padding (remove this if you want to put something under the navigation bar) -->
+    <div class="navbar-padding"></div>
+
+
+
+    <!-- Author: Brian Lai Kah Hoe -->
+    <div class="floor-tab">
+        <button  class="tablink" onclick="tabHandler(0)">LG</button>
+        <button class="tablink" onclick="tabHandler(1)">GF</button>
+        <button  class="tablink" onclick="tabHandler(2)">L1</button>
+        <button  class="tablink" onclick="tabHandler(3)">L2</button>
+        <button class="tablink" onclick="tabHandler(4)">L3</button>
+        <hr>
+    </div>
+
+
+    <!-- lower ground cards list -->
+    <div class="card-view">
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/mcdonald.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">McDonald</div>
+                <p>LG(B3-0052)</p>
+            </div>  
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/A&W.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+            <div class="text">A&W</div>
+            <p>LG(B3-0053)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/kfc.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">KFC</div>
+                <p>LG(B3-0054)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/pizza hut.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Pizza Hut</div>
+                <p>LG(B3-0055)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/tiger sugar.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Tigar Sugar</div>
+                <p>LG(B3-0056)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/xingfutang.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Xing Fu Tang</div>
+                <p>LG(B3-0057)</p>
+            </div>           
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/texas chicken.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Texas Chicken</div>
+                <p>LG(B3-0058)</p>
+            </div>           
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/7-eleven.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">7-Eleven</div>
+                <p>LG(B3-0059)</p>
+            </div>                    
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/bawanggchaji.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+            <div class="text">Ba Wang Cha Ji</div>
+            <p>LG(B3-0060)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/baskin robbins.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+            <div class="text">Baskin Robbin</div>
+            <p>LG(B3-0061)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/applestore.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+            <div class="text">Apple Store</div>
+            <p>LG(B3-0062)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/putien.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+            <div class="text">Putien</div>
+            <p>LG(B3-0063)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/rakuzen.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+            <div class="text">Rakuzen</div>
+            <p>LG(B3-0065)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/samsung.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+            <div class="text">Samsung</div>
+            <p>LG(B3-0066)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/publicbank.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Public Bank Atm</div>
+                <p>LG(Near B3-0055)</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ground floor cards list -->
+    <div class="card-view">
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/w380-crop.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">6ixty 8ight</div>
+                <p>GF(B5-0167)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/a saloon+.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">A-Saloon+</div>
+                <p>GF(B5-0168)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Birkenstock.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Birkenstock</div>
+                <p>GF(B5-0169)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Dior.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Dior</div>
+                <p>GF(B5-0170)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/gshock.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">G-Shock</div>
+                <p>GF(B5-0171)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/myfeet.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">MyFeet</div>
+                <p>GF(B5-0172)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Owl.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Owl</div>
+                <p>GF(B5-0173)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/romp.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Romp</div>
+                <p>GF(B5-0174)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/adidas original.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Adidas Original</div>
+                <p>GF(B5-0175)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/adidas performance.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Adidas Performance</div>
+                <p>GF(B5-0176)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/ambank.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Ambank Atm</div>
+                <p>GF(Near B5-0175)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/gintell.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Gintell</div>
+                <p>GF(B5-0177)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/jd.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">JD</div>
+                <p>GF(B5-0178)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Bata.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Bata</div>
+                <p>GF(B5-0179)</p>
+            </div>
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/canton kitchen.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Canton Kitchen</div>
+                <p>GF(B5-0180)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- floor 1 cards list -->
+    <div class="card-view">
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/4fingers.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">4Fingers-Chicken</div>
+                <p>L1(B7-0281)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/go noodle.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Go Noodle House</div>
+                <p>L1(B7-0282)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/haagen dazs.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Haagen Dazs</div>
+                <p>L1(B7-0283)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/hoops station.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Hoops station</div>
+                <p>L1(B7-0284)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Huawei.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Huawwei</div>
+                <p>L1(B7-0285)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Palo.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Palo Arcade</div>
+                <p>L1(B7-0286)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Tarot.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Tarot</div>
+                <p>L1(B7-0287)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/umobile.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">U-Mobile</div>
+                <p>L1(B7-0288)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Celcom.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Celcom</div>
+                <p>L1(B7-0289)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/cimb bank.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">CIMB Bank Atm</div>
+                <p>L1(Near B7-0289)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/city chain.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">City Chain</div>
+                <p>L1(B7-0290)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Dlaksa.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">D'Laksa</div>
+                <p>L1(B7-0291)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/dubuyo.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Dubuyo</div>
+                <p>L1(B7-0292)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/famous amos.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Famous Amos</div>
+                <p>L1(B7-0293)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/black whale.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Black Whale</div>
+                <p>L1(B7-0294)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Focuspoint..png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Focus Point</div>
+                <p>L1(B7-0295)</p>
+            </div>               
+        </div>
+    </div>
+
+    <!--floor 2 cards list -->
+    <div class="card-view">
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/wong kok.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Wong Kok Restaurant</div>
+                <p>L2(B9-0396)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/vivo.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Vivo</div>
+                <p>L2(B9-0297)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/toyrus.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">ToyRUs</div>
+                <p>L2(B9-0298)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/uniqlo.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Uniqlo</div>
+                <p>L2(B9-0299)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/wattsons.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Wattsons</div>
+                <p>L2(B9-02100)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/sushi zanmai.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Sushi Zanmai</div>
+                <p>L2(B9-02101)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/subway.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Subway</div>
+                <p>L2(B9-02102)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/secret recipe.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Secret Recipe</div>
+                <p>L2(B9-02103)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Digi.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Digi</div>
+                <p>L2(B9-02104)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/nanyang.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Nanyang Cafe</div>
+                <p>L2(B9-02105)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/koi.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Koi</div>
+                <p>L2(B9-02106)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/llaollao.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">LlaoLlao</div>
+                <p>L2(B9-02107)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Parkson.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Parkson</div>
+                <p>L2(B9-02103)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/hsbc.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">HSBC Bank Atm</div>
+                <p>L2(Near B9-02103)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/osim.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Osim</div>
+                <p>L2(B9-02104)</p>
+            </div>               
+        </div>
+    </div>
+
+    <!-- floor 3 cards list -->
+    <div class="card-view">
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/sukiya.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Sukiya</div>
+                <p>L3(B11-03105)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/sushi king.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Sushi King</div>
+                <p>L3(B11-03106)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/TGVCinema.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">TGVCinema</div>
+                <p>L3(B11-03107)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/starbuck.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Starbucks</div>
+                <p>L3(B11-03108)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/varlive.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Var Live</div>
+                <p>L3(B11-03109)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/spao.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Spao</div>
+                <p>L3(B11-03110)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/maybank.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Maybank Atm</div>
+                <p>L3(Near B11-03110)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/meps.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Meps Atm</div>
+                <p>L3(Near B11-03111)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/bbq-plaza.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Bbq-Plaza</div>
+                <p>L3(B11-03111)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/burger king.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Burger King</div>
+                <p>L3(B11-03112)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/LoudSpeaker.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Loud Speaker</div>
+                <p>L3(B11-03113)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/palsaik.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Palsaik</div>
+                <p>L3(B11-03114)</p>
+            </div>               
+        </div>
+        <div class="shop-card">
+            <img src="Assets/brian/Logo Mall/Popular.png" alt="" class="imagemall">
+            <div class ="text-overlay">
+                <div class="text">Popular</div>
+                <p>L3(B11-03115)</p>
+            </div>               
+        </div>
+    </div>
+
+   
+
+
+
+
+
+
+    
+    <!-- add your html code in here -->
+
+    <footer>
+        <div class="footer-upper">   
+            <div class="footer-content">
+                <h1 class="footer-title">Quick Links</h1>
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="floorguide.html">Floor Directory</a>
+                <a href="discover.html">Discover</a>
+                <a href="whatson.html">What's on</a>
+                <a href="services.html">Service</a>
+                <a href="membership.html">Membership</a>
+                <a href="Review.html">Review</a>
+                <a href="locateus.html">Locate us</a>
+                <a href="Followsus.html">Follow us</a>
+                <a href="facilities.html">Facilities</a>
+                <a href="Contactus.html">Contact us</a>
+            </div>
+            <div class="footer-content">
+                <h1 class="footer-title">Operating Hours</h1>
+                <span style="font-size: 0.75em;">MONDAY - FRIDAY</span>
+                <h2>10:00 AM - 10:00 PM</h2>
+                <span style="font-size: 0.75em;">SATURDAY - SUNDAY</span>
+                <h2>10:00 AM - 11:00 PM</h2>
+            </div>
+            <div class="footer-content">
+                <h1 class="footer-title">Contact Info</h1>
+                <span>Customer serivce Centre</span>
+                <a href="tel:0123456789">+60123456789</a>
+                <a href="mailto:someone@example.com">Email: management@topmall.com</a>
+            </div>    
+            <hr>
+        </div>
+        <div class="footer-lower">
+            <div class="footer-email">
+                <span style="color: white;">Sign up for Topmall Newsletter</span>
+                <form action="" method="post"> <input type="email" name="" id=""> <button type="submit" style="background-color:black;border:none;font-size: 0.5em;"><i class="fa fa-paper-plane"></i></button> </form>
+            </div>
+            <div class="footer-social">
+                <a href="" class="fa fa-facebook-square"></a>
+                <a href="" class="fa fa-twitter-square"></a>
+                <a href="" class="fa fa-youtube-square"></a>
+                <a href="" class="fa fa-instagram"></a>
+                <a href="" class="fa fa-reddit"></a>
+            </div>
+        </div>    
+        <div class="copyright">
+            <p>Copyright &#169; 2021 Topmall Megamall. All rights reserved</p>
+        </div>    
+    </footer>
+
+    <script src="js/tab.js"></script>
+</body>
+</html>

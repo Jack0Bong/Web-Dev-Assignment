@@ -1,0 +1,87 @@
+/*Author: Brian Lai Kah Hoe*/
+
+/* Floor category styling */
+.floor-tab{
+    margin: 3vh auto 3vh auto;
+}
+
+.tablink{
+    margin: 0px 20px 0px 20px;
+    font-size: 1.3em;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: ease-in 0.1s;
+    padding :4px 25px;
+}
+
+.tablink:hover{
+    transition: ease 0.2s;
+    background-color: red;
+    color:white;
+    padding:4px 40px;
+}
+button.tablink:active{
+    background-color: red;
+    color:black; 
+}
+
+
+.card-view{
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.shop-card{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50%;
+    
+}
+
+.shop-card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*Images Hover Text*/
+.card-view {
+    position: relative;
+    width: 70%;
+  }
+
+  .shop-card img{
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+
+
+  .text-overlay{
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+    margin-bottom: 50px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+
+  .text-overlay p{
+    font-family: roboto;
+  }
+  
+
+  .shop-card:hover .text-overlay{
+    opacity: 1;
+  }
+
+  
+
