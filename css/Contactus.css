@@ -1,0 +1,77 @@
+/* Author: Chin Jun */
+
+.contentus{
+    margin:0;
+    font-family: sans-serif;
+    font-size: 15px;
+} 
+
+.contentus-style{
+    text-align: center;
+    font-size: 15px;
+}
+p{
+    margin:0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+form{
+    padding:40px;
+    width:800px;
+    height:700px;
+    border:2px solid #ffe6ff;
+    background-color: #ffe6ff;
+    margin:30px auto; 
+}
+
+.form-group label{
+    display:block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-group input{
+    width: 320px;
+    padding: 5px;
+    font-size: 15px;
+    color:  #bfbfbf;
+    margin-bottom: 2px;
+}
+
+.form-group textarea{
+    width: 320px;
+    padding: 5px;
+    font-size: 15px;
+    color:  #bfbfbf;
+    margin-bottom: 2px;
+    width: 500px;
+    height:200px;
+}
+
+hr{
+    height:1px;
+    background-color: #8c8c8c;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button{
+    font-size: 10px;
+    padding:10px;
+    font-size: 15px;
+    background: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8c8c8c;
+    border:black;
+    color: white;
+}
+
+
