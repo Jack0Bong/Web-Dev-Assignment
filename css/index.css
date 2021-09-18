@@ -218,3 +218,35 @@ to {opacity: 1}
     width: 250px;
     object-fit: cover;
 }
+
+/* Styling for width 1000px or lesser resolution */
+@media screen and (max-width: 1000px) {
+
+    /* Events section styling */
+    .card-view{
+        width: 100%;
+    }
+
+
+    /* promotion section styling */
+    .promotion-section{
+        margin: 10vh auto 10vh auto
+    }
+
+    .box-view{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+        width: 100%;
+    }
+
+    .box{
+        width: 90%;
+        height: 90%;
+    }
+
+    .box img{
+        width: 90%;
+        object-fit: cover;
+    }
+}

@@ -177,3 +177,43 @@ footer{
     color: white;
     font-size: 2em;
 }
+
+/* Styling for width 1000px or lesser resolution */
+@media screen and (max-width: 1000px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    /* Navigation bar changes */
+    nav{
+        width: 100%;
+        height: 10vh;
+    }
+
+    nav:hover{
+        width: 100%;
+        height: 12vh;
+        opacity: 100%;
+    }
+
+    .logo{
+        padding-left: 0px;
+        width: 300px;
+        height: 50%;
+        object-fit: cover;
+        margin: auto;
+    }
+
+    .navlink{
+        font-size: 0.9em;
+    }
+
+    /* Footer changes */
+    .footer-upper{
+        width: 80%;
+    }
+
+    .footer-content{
+        margin-right: 9%;
+    }
+}

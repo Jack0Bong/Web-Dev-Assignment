@@ -135,11 +135,38 @@
 
 .card{
     width: 25%;
-    height: 500px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 5vh auto;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    
 }
 
+.card img{
+    width: 245px;
+    height: 162px;
+    object-fit: cover;
+
+}
+
+
+/* Styling for width 1000px or lesser resolution */
+@media screen and (max-width: 1000px) {
+    .service{
+        width: 90%;
+        min-width: 800px;
+    }
+
+    /* list of services grid styling */
+    .service-list{
+        width: 90%;
+    }
+
+    .list-content img{
+        width: 25%;
+        min-height: 60px;
+        object-fit: cover;
+
+    }
+
+   
+}
